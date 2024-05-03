@@ -2,12 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-// import leaf from "../../Assets/Projects/leaf.png";
-// import emotion from "../../Assets/Projects/emotion.png";
-import e_gallery from "../../Assets/Projects/e-gallery.png";
-import apex_college from "../../Assets/Projects/apex-college.png";
-// import suicide from "../../Assets/Projects/suicide.png";
-import project_management from "../../Assets/Projects/project-management-tool.png";
+import kheti from "../../Assets/Projects/Kheti.png";
+import budget_buddy from "../../Assets/Projects/Budget_buddy.png";
+import epilepy_shield from "../../Assets/Projects/Epilepsy_shield.jpeg";
+
 
 function Projects() {
   return (
@@ -23,33 +21,33 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={apex_college}
+              imgPath={kheti}
               isBlog={false}
-              title="APEX-COLLEGE"
-              description="The Apex College Management System is a web-based application that aims to simplify and enhance the management of a college's day-to-day operations. It covers a wide range of functionalities, including student enrollment, course management, attendance tracking, grading, and more. The intuitive user interface ensures ease of use for both administrators and students."
-              ghLink="https://github.com/ReactRocket/APEX-COLLEGE"
+              title="Smart Farming assistant - Kheti"
+              description="Kheti is a web application that uses data science to help farmers identify and treat plant diseases. The application is built on Next.js and Flask, and it uses a variety of data science algorithms, including image classification, natural language processing, and machine learning."
+              ghLink="https://github.com/Thorfinnn/Smart-Farming-assisstant"
             // demoLink="https://website.link/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={project_management}
+              imgPath={budget_buddy}
               isBlog={false}
-              title="Project Management"
-              description="The aim of this project is to develop a web-based project management tool that can help users manage their projects from start to finish. The tool will provide features such as task management, collaboration, time tracking, budgeting, reporting, and more. The tool will be user-friendly, secure, and scalable."
-              ghLink="https://github.com/ReactRocket/Internship-Projects"
+              title="Budget Buddy"
+              description="The application include features such as Budget tracking , Expense monitoring , Financial planning tools To promote sustainable behavior, the application should make use of an ML model which gives recommendations based on the spending pattern of the user"
+              ghLink="https://github.com/chinmay29hub/Hackerstellar-BootstrapParadox"
             // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={e_gallery}
+              imgPath={epilepy_shield}
               isBlog={false}
-              title="E-Gallery"
-              description="An E-Gallery website is a web platform that showcases various types of artworks, such as paintings, sculptures, photographs, etc. It allows artists to display their creative works online and reach a wider audience. It also enables visitors to browse, appreciate, and purchase artworks from different genres and styles."
-              ghLink="https://github.com/ReactRocket/E-Gallery"
+              title="Epilepsy Shield"
+              description="A chrome extension that detects flashing lights from YouTube videos and skips those segments to help people suffering from Photosensitive Epilepsy enjoy the videos."
+              ghLink="https://github.com/Rishabh-Tripathi1/EpilepsyShield"
               // demoLink="https://editor.soumya-jit.tech/"
             />
           </Col>

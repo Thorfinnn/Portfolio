@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/logo.png";
+import logo from "../Assets/logo.jpg";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
@@ -38,7 +38,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <h1 style={{ fontSize: "2.6em" }} className="purple">AV</h1>
+          <h1 style={{ fontSize: "2.6em" }} className="purple">Thorfin</h1>
           {/* <img src={logo} className="img-fluid logo" alt="brand" /> */}
         </Navbar.Brand>
         <Navbar.Toggle
@@ -96,7 +96,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/ReactRocket"
+                href="https://github.com/Thorfinnn"
                 target="_blank"
                 className="fork-btn-inner"
               >

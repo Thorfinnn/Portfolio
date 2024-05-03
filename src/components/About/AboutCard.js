@@ -8,12 +8,12 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Ayush Varma </span>
+            Hi Everyone, I am <span className="purple">Taher Barwaniwala </span>
             from <span className="purple"> Surat, India.</span>
             <br />
-            I am currently intern as a React.js Developer at <a className="purple text-decoration-none" href="https://thediamondport.com/" rel="noreferrer" target="_blank">The Diamond Port</a> .
+            I interned as a React.js Developer at <a className="purple text-decoration-none" href="http://hkiinfotech.com/" rel="noreferrer" target="_blank">HKI Infotech</a> .
             <br />
-            I have completed Integrated BCA  in Web Development at <a className="purple text-decoration-none" rel="noreferrer" href="https://www.vnsgu.ac.in/" target="_blank" title="Veer Narmad South Gujarat University">VNSGU</a>.
+            I have completed BE  in Computer Engineering at <a className="purple text-decoration-none" rel="noreferrer" href="https://www.vcet.edu.in/" target="_blank" title="Vidyavardhini's College of Engineering and technology">Vidyavardhini's College of Engineering and Technology affiliated with Mumbai University</a>.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -33,7 +33,7 @@ function AboutCard() {
           <p style={{ color: "rgb(155 126 172)" }}>
             "Code with purpose, craft with passion!"{" "}
           </p>
-          <footer className="blockquote-footer"><a href="https://sites.google.com/view/ayush-varma/home" className="fw-bold purple text-decoration-none" target="_blank" rel="noreferrer">Ayush Varma</a></footer>
+          <footer className="blockquote-footer"><a href="https://www.linkedin.com/in/taher-barwaniwala" className="fw-bold purple text-decoration-none" target="_blank" rel="noreferrer">Taher Barwaniwala</a></footer>
         </blockquote>
       </Card.Body>
     </Card>
